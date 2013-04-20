@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        background-color: rgba(0,0,0,0.1);
+        text-align: center;
+      }
+      #wrap {
+        text-align: center;
+        font-family: sans-serif;
+        min-width:257px;
+        overflow-x:hidden;
+        margin: 0.75em 0.5em;
+        padding: 0.5em;
+        background-color: white;
+        box-shadow: 0 0 0 1px rgba(0,0,0 , 0.1);
+        border-radius: 2px;
+      }
+      h1 {
+        font-size:20px;
+        color: #009fde;
+        /*text-shadow: -1px 0px white, 1px 0 black;*/
+      }
+      a {
+        box-shadow: 0 0 0 1px rgba(0,0,0 , 0.05);
+        color:white;
+        font-weight: bold;
+        background-color: #009fde;
+        display: block;
+        padding: 1em;
+        text-decoration: none;
+        border-radius:2px;
+        margin-top: 0.5em;
+/*background: -webkit-linear-gradient(top,  #222 50%,#000000 100%); */
+
+      }
+      a:hover  {
+        background-color: #00afe5;
+      }
+      iframe  {
+        box-shadow: 0 0 0 1px rgba(0,0,0 , 0.1);
+      }
+
+      img {
+        width: 48px;
+        text-align: left;
+        margin-top: 0.5em;
+      }
+
+    </style>
+
+
+
+  </head>
+  <body>
+    <img src="icon.png" alt="">
+    <div id="wrap">
+
+    </div>
+        <!-- JavaScript and HTML must be in separate files for security. -->
+    <script src="jquery.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
